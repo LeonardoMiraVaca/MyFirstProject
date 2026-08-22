@@ -7,10 +7,18 @@ body {
     color: white;
 }
 
+.Subsection {
+    background-color: rgb(44, 15, 44);
+    border: 3px solid rgb(148, 63, 148);
+    margin: 30px;
+}
+
 #MyName {
     display: grid;
     place-items: left;
     transform: translate(100px,75px);
+    padding: 10px;
+    margin: 30px;
 }
 
 
@@ -19,4 +27,12 @@ body {
     place-items: center;
     transform: translate(150px, 0px);
     font-size: 23px;
+    padding: 20px;
+    margin: 50px;
+}
+
+iframe {
+  display: block;          /* Changes inline element to block */
+  margin-left: auto;       /* Automatically calculates left space */
+  margin-right: auto;      /* Automatically calculates right space */
 }
