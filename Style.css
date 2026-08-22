@@ -1,4 +1,22 @@
 html {
-    background-color: aliceblue;
-    /* background-color: #181818 ; */
+    background-color: #181818 ;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+#MyName {
+    display: grid;
+    place-items: left;
+    transform: translate(100px,75px);
+}
+
+
+#WhoIsLeo {
+    display: grid;
+    place-items: center;
+    transform: translate(150px, 0px);
+    font-size: 23px;
 }
