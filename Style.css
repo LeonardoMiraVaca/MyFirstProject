@@ -655,3 +655,79 @@ footer {
 
     transform: translateY(-2px);
 }
+
+/* =========================
+   Copy Email
+========================= */
+
+.email-copy {
+    width: 100%;
+
+    padding: 25px;
+
+    background: #111720;
+
+    border: 1px solid #292231;
+
+    border-radius: 8px;
+
+    color: #eeeaf5;
+
+    font-family: inherit;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.25s ease;
+}
+
+.email-copy:hover {
+    border-color: #a855f7;
+
+    box-shadow:
+        0 0 5px #a855f7,
+        0 0 15px rgba(168, 85, 247, 0.5),
+        0 0 30px rgba(168, 85, 247, 0.2);
+
+    transform: translateY(-2px);
+}
+
+.email-copy span {
+    display: block;
+
+    color: #c084fc;
+
+    font-size: 0.8rem;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 5px;
+}
+
+.email-copy strong {
+    display: block;
+
+    font-size: 1rem;
+
+    font-weight: normal;
+}
+
+.email-copy small {
+    display: block;
+
+    color: #665c70;
+
+    margin-top: 8px;
+
+    transition: color 0.2s ease;
+}
+
+.email-copy:hover small {
+    color: #c084fc;
+}   

@@ -111,10 +111,7 @@
             <div class="section-heading">
                 <p class="eyebrow">MY WORK</p>
                 <h2>Projects</h2>
-                <p>
-                    Some of the things I've built while learning and
-                    experimenting with software development.
-                </p>
+
             </div>
 
 
@@ -307,13 +304,33 @@
                 </p>
             </div>
 
+            <script>
+                function copyEmail() {
+                    const email = "lhvping@gmail.com";
+                    const message = document.getElementById("copy-message");
+
+                    navigator.clipboard.writeText(email)
+                        .then(() => {
+                            message.textContent = "Copied!";
+
+                            setTimeout(() => {
+                                message.textContent = "Click to copy";
+                            }, 2000);
+                        })
+                        .catch(() => {
+                            message.textContent = "Unable to copy";
+                        });
+                    }
+            </script>
+
 
             <div class="contact-links">
 
-                <a href="mailto:lhvping@gmail.com">
+                <button class="contact-item email-copy" onclick="copyEmail()">
                     <span>Email</span>
-                    lhvping@gmail.com
-                </a>
+                    <strong>lhvping@gmail.com</strong>
+                    <small id="copy-message">Click to copy</small>
+                </button>
 
                 <a href="https://github.com/LeonardoMiraVaca"
                    target="_blank"
