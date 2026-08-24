@@ -11,19 +11,36 @@
         <link rel="stylesheet" href="Style.css">
     </head>
     <body>
+
+        <header>
+
+            <nav>
+                <a href="#Git">Projects</a>
+                <a href="#CV">Resume</a>
+                <a href="#Comments">Leave A Comment</a>
+            </nav>
+
+        </header>
+
         <h1 id="MyName">
             I'm Leonardo Vaca
         </h1>
+
         <div id="myInfo" class="Subsection">
+
             <p id="WhoIsLeo">
                 I'm a Full Stack Developer with experience building web pages, web apps, and mobile apps. <br>
                 I love using languages like C++ and Java, I like to spend most of the time <br>
                 learning how things work in a fundamental level and optimizing as much as possible; to me <br>
                 good design comes from good compromise. <br>
             </p>
+
         </div>
+
         <div id="Git" class="Subsection">
+            
             <h1>Projects</h1>
+
             <div id="FstProject" class="Projects">
                 <h2>Inventory Manager</h2>
                 <h2>Tech Stack:</h2>
@@ -34,21 +51,54 @@
                 <li>C++</li>
                 <li>AWS</li>
             </div>
+        
         </div>
+
         <div id="CV" class="Subsection">
+
             <h1>My Resume</h1>
             <iframe id="CVSDE" src="CV.pdf" height="500px" width="800px"></iframe>
+
         </div>
+
         <div id="Comments" class="Subsection">
-            <h1>Leave A Comment</h1>
+            
+            <h4>Leo Vaca</h4>
+            <p>Leave A Comment</p>
+
+            <div class="Comment-section">
+
+                <div class="Comment-list">
+                    <div class="Single-comment">
+                        <p>This is an example of a comment</p>
+                    </div>
+                </div>
+
+                <form class="Comment-form">
+
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="name" required placeholder="Your name">
+
+                    <label for="user-comment">Comment:</label>
+                    <textarea id="user-comment" name="comment" required placeholder="Write your comment here..."></textarea>
+                    
+                    <button type="submit">Post Comment</button>
+                </form>
+
+            </div>
+
         </div>
         <footer id="Bottom">
+
             <h3>Contact Info</h3>
+
             <p>Phone Number: +52 55-7988-0509</p>
             <p>Email: lhvping@gmail.com</p>
             <a href="https://github.com/LeonardoMiraVaca">GitHub</a>
             <a href="https://www.linkedin.com/in/leonardo-vaca2578/">LinkedIn</a>
             <a href="https://leetcode.com/u/LeonardoMVaca/">LeetCode</a>
+
         </footer>
+
     </body>
 </html>
